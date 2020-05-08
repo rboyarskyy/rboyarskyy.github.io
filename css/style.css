@@ -1602,14 +1602,14 @@ iframe{
 		flex-direction: column;
 	}
 	.programs-bar{
-		width: 370px !important;
+		width: 400px;
 		padding: 50px;
 		background: #9f6fae;
 		color: white;
 		text-align: center;
 		border: 5px solid #e8e8ff;
 		border-radius: 10px;
-		margin-top: 3%;
+		margin-top: 3% !important;
 	}
 	.programs-bar-info{
 		width: 300px;
@@ -1618,7 +1618,7 @@ iframe{
 		border: 5px solid #e8e8ff;
 		border-radius: 10px;
 		margin: 0 auto;
-		margin-top: 6% !important;
+		margin-top: 5%;
 	}
 }
 
