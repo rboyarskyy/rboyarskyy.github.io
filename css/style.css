@@ -1288,7 +1288,7 @@ iframe{
 		list-style: none;
 		font-weight: bold;
 		font-size: 0.77em;
-		padding-left: 5%;
+		padding-left: 4.9%;
 		padding-top: 0.5%;
 	}
 	.second-list li{
@@ -1296,7 +1296,7 @@ iframe{
 		font-weight: bold;
 		font-size: 0.7em;
 		padding-top: 4%;
-		padding-left: 0.45%;
+		padding-left: 0.35%;
 	}
 	.media-list{
 		width: 120%;
@@ -1602,7 +1602,7 @@ iframe{
 		flex-direction: column;
 	}
 	.programs-bar{
-		width: 400px;
+		width: 390px;
 		padding: 50px;
 		background: #9f6fae;
 		color: white;
