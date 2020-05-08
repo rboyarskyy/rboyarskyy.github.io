@@ -1422,12 +1422,12 @@ iframe{
 		display: none;
 	}
 	.test-bar{
-		width: 57% !important;
+		width: 56% !important;
 		display: grid;
 		margin-left: -10% !important;
 	}
 	.question-bar{
-		width: 57% !important;
+		width: 56% !important;
 		min-height: 85%;
 		background: #ebecec;
 		margin-left: -10% !important;
@@ -1559,11 +1559,8 @@ iframe{
 		max-height: 100% !important;
 	}
 	.sidebar-first-paragraph-x, .sidebar-second-paragraph-x, .sidebar-third-paragraph-x{
-		font-size: 1.1em !important;
+		font-size: 1.05em !important;
 		min-height: 100%;
-	}
-	.content-programs{
-		margin-top: 30%;
 	}
 	.content-never-stop-learning{
 		width: 100%;
@@ -1594,9 +1591,34 @@ iframe{
 		background: grey;
 		color: white;
 	}
-			.block-videos{
+	.block-videos{
 		padding: 0 18%;
 		margin-top: 13% !important;
+	}
+	.content-programs{
+		width: 100%;
+		min-height: 500px;
+		display: flex !important;
+		flex-direction: column;
+	}
+	.programs-bar{
+		width: 370px !important;
+		padding: 50px;
+		background: #9f6fae;
+		color: white;
+		text-align: center;
+		border: 5px solid #e8e8ff;
+		border-radius: 10px;
+		margin-top: 3%;
+	}
+	.programs-bar-info{
+		width: 300px;
+		padding: 30px;
+		text-align: center;
+		border: 5px solid #e8e8ff;
+		border-radius: 10px;
+		margin: 0 auto;
+		margin-top: 6% !important;
 	}
 }
 
@@ -2099,6 +2121,7 @@ iframe{
 	text-align: center;
 	font-weight: bold;
 	color: #9f6fae;
+	margin-top: 2%;
 }
 .sidebar-first-paragraph-x, .sidebar-second-paragraph-x, .sidebar-third-paragraph-x{
 	font-size: 1.35em;
@@ -2112,14 +2135,54 @@ iframe{
 	width: 100%;
 	height: 600px;
 	display: grid;
-	grid-template-columns: 6fr 5fr;
+	grid-template-columns: auto auto;
 	grid-template-areas: "sidebar-left-f sidebar-right-f";
 	padding: 0 19%;
+}
+.content-programs{
+	width: 100%;
+	min-height: 500px;
+	display: grid;
+	justify-content: space-around;
+	grid-template-columns: auto auto;
+	grid-template-areas: "sidebar-left-programs sidebar-right-programs";
+}
+.sidebar-left-programs{
+	width: 100%;
+	grid-area: "sidebar-left-programs";
+}
+.sidebar-right-programs{
+	grid-area: "sidebar-right-programs";
 }
 .subtitle-programs{
 	text-align: center;
 	color: #9f6fae;
 }
 .sidebar-left-programs{
-
+}
+.programs-bar{
+	width: 400px;
+	padding: 50px;
+	background: #9f6fae;
+	color: white;
+	text-align: center;
+	border: 5px solid #e8e8ff;
+	border-radius: 10px;
+}
+.programs-bar-info{
+	width: 300px;
+	padding: 30px;
+	text-align: center;
+	border: 5px solid #e8e8ff;
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 5%;
+}
+.programs-bar-info span{
+	color: #9f6fae;
+	font-weight: bold;
+}
+.programs-bar-info img{
+	width: 20%;
+	float: 
 }
