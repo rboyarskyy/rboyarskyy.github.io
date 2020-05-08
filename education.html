@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Мій персональний Оксфорд</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/fonts.css">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="img/Oxford-University-Circlet.png" type="image/png">
+	</head>
+	<body>
+		<div class="container-education">
+			<header class="header-future">
+				<div class="header-logo-future">
+					<img class="logo-img-future" src="img/logo.png">
+				</div>
+				<nav class="navigation-future media-list">
+					<ul class="first-list media-list topBotomBordersIn">
+						<li><a href="index.html">Головна</a></li>
+						<li><a href="future.html">Світ майбутнього</a></li>
+						<li class="first-child"><a href="education.html">Навички навчання</a></li>
+					</ul>
+					<ul class="second-list media-list">
+						<li><a href="how-to-learn.html">Вчимось вчитись</a></li>
+						<li><a href="never-stop-learning.html">Never stop learning</a></li>
+						<li><a href="my-oxford.html">Моя програма</a></li>
+					</ul>
+				</nav>
+			</header>
+			<article class="content-education">
+				<aside class="sidebar-left-e">
+					<h1 class="sidebar-subtitle-e media-subtitle">
+						Навичка навчання
+					</h1>
+					<img class="test-img" src="img/test.png">
+				</aside>
+				<aside class="sidebar-right-e">
+					<div class="test-bar">
+						<div class="subtitle">
+							<h1 class="subtitle-test">
+								Протестуй себе!
+							</h1>
+						</div>
+					</div>
+					<div class="question-bar">
+						<div class="quiz_wrapper">
+					        <div class="question" id="questionBox">
+					        </div>	           
+					        <div class="options">
+					           	<ul id="ul">
+					           	  	<li id="op1" onclick="button(this)"></li>
+					           	  	<li id="op2" onclick="button(this)"></li>
+					           	  	<li id="op3" onclick="button(this)"></li>
+					           	  	<li id="op4" onclick="button(this)"></li>
+					           	</ul>
+					        </div>
+					        <div class="score">
+					           	<div class="next">
+					           	   	<button type="button" onclick="next()" id="button">Далі</button>
+					           	</div>
+					           	<div class="score-card">
+					           	   	Результат : <span id="scoreCard">0</span>
+					           	</div>
+					        </div>
+						</div>
+					</div>
+				</aside>
+			</article>
+			<footer class="footer-education">
+				Школа комп'ютерної майстерності, 2020
+			</footer>
+		</div>
+		<script src="js/script.js"></script>
+	</body>
+</html>
