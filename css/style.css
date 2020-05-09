@@ -1622,6 +1622,53 @@ iframe{
 	}
 }
 
+@media screen and (max-width: 380px){
+	.navigation-index{
+		width: 100%;
+		display: grid;
+		grid-template-rows: 0.3fr;
+		grid-area: header-navigation;
+		margin-left: -1% !important;
+	}
+	.first-list li{
+		list-style: none;
+		font-weight: bold;
+		font-size: 0.73em !important;
+		padding-left: 4.9%;
+		padding-top: 0.5%;
+	}
+	.second-list li{
+		list-style: none;
+		font-weight: bold;
+		font-size: 0.67em !important;
+		padding-top: 4%;
+		padding-left: 0.35%;
+	}
+}
+@media screen and (max-width: 310px){
+	.navigation-index{
+		width: 120%;
+		display: grid;
+		grid-template-rows: 0.3fr;
+		grid-area: header-navigation;
+		margin-left: -1% !important;
+	}
+	.first-list li{
+		list-style: none;
+		font-weight: bold;
+		font-size: 0.73em !important;
+		padding-left: 4.9%;
+		padding-top: 0.5%;
+	}
+	.second-list li{
+		list-style: none;
+		font-weight: bold;
+		font-size: 0.67em !important;
+		padding-top: 4%;
+		padding-left: 0.35%;
+	}
+}
+
 
 
 
